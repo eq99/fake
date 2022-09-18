@@ -1,2 +1,2 @@
-# fake
-*.fake
+# fake web site
+- `www.bing.com`
