@@ -1,0 +1,182 @@
+body {
+    background-color: #eee;
+    width: 100%;
+}
+
+header .top {
+    display: flex;
+    align-items: center;
+    margin: 3px;
+}
+
+nav a:visited {
+    border: none;
+}
+
+header .top a {
+    margin: 1rem;
+    font-size: 2rem;
+    color: #9499a0;
+}
+
+header .sbox {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    background-color: #eee;
+    border-radius: 2rem;
+    padding: 0 1rem;
+}
+
+.sbox input {
+    flex-grow: 1;
+    font-size: larger;
+    border: none;
+    outline: none;
+    margin-left: 0.5rem;
+    background-color: transparent;
+}
+
+/* 头部 */
+header .category {
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+header .category::-webkit-scrollbar {
+    display: none;
+}
+
+
+header .category a {
+    color: #9499a0;
+    font-size: 2rem;
+    margin-left: 4rem;
+    padding-bottom: 4px;
+}
+
+header .category a.active {
+    color: #fb7299;
+    border-bottom: 4px solid #fb7299;
+}
+
+header {
+    background-color: #fff;
+}
+
+
+header .top {
+    display: flex;
+}
+
+
+
+
+/* banner */
+
+.banner {
+    margin: 1rem 1rem 0;
+}
+
+.banner img {
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+/*视频卡片*/
+.videos {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.card .cover {
+    position: relative;
+}
+
+.card .cover .data {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 0.5rem;
+    bottom: 0px;
+    color: #fff;
+    font-size: smaller;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.data .iconitem {
+    display: flex;
+    align-items: center;
+}
+
+.data .iconitem .icon {
+    margin-right: 3px;
+}
+
+.card .cover img {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+}
+
+.card .footer {
+    display: flex;
+    align-items: center;
+}
+
+.card .body {
+    padding: 1rem;
+}
+
+.card .body .title {
+    font-weight: bolder;
+}
+
+.card .up {
+    background-color: #FFf0e3;
+    color: #ff7f24;
+    padding: 1px 2px;
+    border-radius: 5px;
+}
+
+.card .tag {
+    color: #9499a0;
+}
+
+
+.card .footer .more {
+    margin-left: auto;
+}
+
+/*底部导航栏*/
+.iconnav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: fixed;
+    bottom: 0;
+    background-color: #fff;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer nav a.active {
+    color: #fb7299;
+}
