@@ -1,0 +1,239 @@
+// init
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: top;
+}
+
+// end init
+
+html {
+    font-family: MiSans, MI Lan Pro, serif;
+}
+
+.root {
+    width: 100%;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+
+    &:hover {
+        color: #ff6900;
+    }
+}
+
+header {
+    position: fixed;
+    height: 65px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 14px;
+    background-color: #000;
+
+    box-sizing: border-box;
+    padding: 0 15px;
+
+    .mi-logo {
+        height: 34px;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    .active {
+        color: #ff6900
+    }
+
+    .nav-menu a {
+        margin: 0 20px;
+    }
+
+
+    .divider {
+        color: #fff;
+        margin: 0 25px;
+    }
+
+}
+
+.product-img {
+    width: 100%;
+}
+
+.future {
+    .left {
+        width: 50%;
+        float: left;
+    }
+
+    .right {
+        width: 50%;
+        float: left;
+    }
+}
+
+.clearfloat:after {
+    content: "";
+    clear: both;
+    display: block;
+    // 浏览器兼容性
+    visibility: hidden;
+    height: 0;
+}
+
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    box-sizing: border-box;
+    padding: 40px 0;
+
+    .col-links {
+        width: 160px;
+
+        dt {
+            font-size: 14px;
+            line-height: 1.25;
+            margin-bottom: 26px;
+        }
+
+        dd {
+            font-size: 12px;
+            margin: 10px 0 0;
+        }
+
+        a {
+            color: #757575;
+
+            &:hover {
+                color: #ff6700;
+            }
+        }
+    }
+
+    .col-contact {
+        width: 251px;
+        border-left: 1px solid #e0e0e0;
+
+        text-align: center;
+
+        p {
+            font-size: 13px;
+            margin-bottom: 5px;
+            line-height: 1.15;
+            color: #757575;
+        }
+
+        .phone {
+            font-size: 22px;
+            line-height: 1;
+            color: #ff6900;
+        }
+
+        .btn {
+            display: inline-block;
+            width: 118px;
+            height: 28px;
+            font-size: 12px;
+            line-height: 28px;
+            cursor: pointer;
+
+            border: 1px solid #ff6700;
+            background: #fff;
+            color: #ff6700;
+
+            &:hover {
+                background: #ff6700;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.site-info {
+    font-size: 12px;
+    line-height: 18px;
+
+    box-sizing: border-box;
+    padding: 30px 0;
+    background-color: #fafafa;
+
+    .container {
+        width: 1226px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .logo {
+        width: 56px;
+        height: 56px;
+        background: url(https://s02.mifile.cn/assets/static/image/logo-mi2.png) no-repeat;
+        background-size: 56px;
+
+        margin-right: 20px;
+    }
+
+    .ir {
+        display: block;
+        text-align: left;
+        text-indent: -9999em;
+        overflow: hidden;
+    }
+
+    .more-links {
+        width: 1049px;
+
+        .text-links {
+            color: #b0b0b0;
+
+            a {
+                color: #b0b0b0;
+
+                &:hover {
+                    color: #ff6700;
+                }
+            }
+
+            .sites {
+                color: #757575;
+
+                a {
+                    color: #757575;
+
+                    &:hover {
+                        color: #ff6700;
+                    }
+                }
+            }
+        }
+
+        .img-links {
+            margin: 4px 0 15px;
+
+            img {
+                width: auto;
+                height: 28px;
+            }
+        }
+    }
+
+    .slogan {
+        clear: both;
+        margin: 30px auto 0;
+        width: 100%;
+        height: 19px;
+        background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/slogan2020.png) no-repeat center 0;
+    }
+}
